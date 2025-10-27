@@ -2,9 +2,9 @@
 
 ## Anggota Kelompok
 
-- Muhamad Zaki Riawan
-- Haudi
-- Ghita
+- Muhamad Zaki Riawan 232101258 
+- Haudi Agusti H 232101259
+- GhitaTourisiaR 232101215
 
 ---
 
