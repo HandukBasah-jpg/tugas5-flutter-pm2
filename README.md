@@ -1,9 +1,10 @@
 # Tugas 5 Pemrograman Mobile 2
 
 ## Anggota Kelompok
-Muhamad Zaki Riawan
-Haudi
-Ghita
+
+- Muhamad Zaki Riawan
+- Haudi
+- Ghita
 
 ---
 
