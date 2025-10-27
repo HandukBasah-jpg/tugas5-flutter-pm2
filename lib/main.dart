@@ -7,8 +7,8 @@ void main() {
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
-  @override
-  State<MyApp> createState() => _MyWidgetState();
+    @override
+    State<MyApp> createState() => _MyWidgetState();
 }
 
 class _MyWidgetState extends State<MyApp> {
@@ -20,6 +20,8 @@ class _MyWidgetState extends State<MyApp> {
           title: const Text('Login Page'),
           backgroundColor: Colors.teal,
         ),
+    
+
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -31,13 +33,24 @@ class _MyWidgetState extends State<MyApp> {
             ),
           ),
 
-          //Text Login
+    
+          //konten login
           child: Center(
             child: SingleChildScrollView(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
+                  //image
+                  Image.asset(
+                "image/login1.png",
+                height: 200,
+                width: 250,
+                fit: BoxFit.cover,
+              ),
+
+
+              //teks login
                   const Text(
                     'Login',
                     style: TextStyle(
@@ -100,6 +113,18 @@ class _MyWidgetState extends State<MyApp> {
                               },
                             ),
                           ),
+                          const SizedBox(height: 10),
+                          //forgot password
+                          Text(
+                            'Forgot Password?',
+                            style: TextStyle(
+                              color: Colors.white.withOpacity(0.9),
+                              fontSize: 14,
+                               decoration: TextDecoration.underline, 
+                               decorationColor: Colors.white,
+                            ),
+                          ),
+
 
                           const SizedBox(height: 30),
 
@@ -122,6 +147,30 @@ class _MyWidgetState extends State<MyApp> {
                                 style: TextStyle(fontSize: 18),
                               ),
                             ),
+                          ),
+                          const SizedBox(height: 20),
+
+                          //teks create account
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text(
+                                "Don't have an account? ",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 14,
+                                ),
+                              ),
+                              Text(
+                                'Create Account',
+                                style: TextStyle(
+                                  color: Colors.white.withOpacity(0.9),
+                                  fontSize: 14,
+                                   decoration: TextDecoration.underline, 
+                                   decorationColor: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
                         ],
                       ),
