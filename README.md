@@ -1,7 +1,5 @@
 # Tugas 5 Pemrograman Mobile 2
 
-## Tugas 5 Membuat Login Page
-
 ## Anggota Kelompok
 Muhamad Zaki Riawan
 Haudi
