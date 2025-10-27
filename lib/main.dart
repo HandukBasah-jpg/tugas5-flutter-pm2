@@ -18,6 +18,7 @@ class _MyWidgetState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Login Page'),
+          style: GoogleFonts.poppins(),
           backgroundColor: Colors.teal,
         ),
         body: Container(
@@ -40,7 +41,7 @@ class _MyWidgetState extends State<MyApp> {
                 children: [
                   const Text(
                     'Login',
-                    style: TextStyle(
+                    style: GoogleFonts.poppins(
                       fontSize: 35,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
@@ -72,6 +73,7 @@ class _MyWidgetState extends State<MyApp> {
                                     ? 'Please enter your email'
                                     : null;
                               },
+                              style: GoogleFonts.poppins(),
                             ),
                           ),
 
@@ -98,6 +100,7 @@ class _MyWidgetState extends State<MyApp> {
                                     ? 'Please enter your password'
                                     : null;
                               },
+                              style: GoogleFonts.poppins(),
                             ),
                           ),
 
@@ -120,6 +123,7 @@ class _MyWidgetState extends State<MyApp> {
                               child: const Text(
                                 'Login',
                                 style: TextStyle(fontSize: 18),
+                                style: GoogleFonts.poppins(
                               ),
                             ),
                           ),
